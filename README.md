@@ -14,8 +14,11 @@ My goal was to make the notebook easy to follow for someone who understands Pyth
 ## Repository Contents
 
 ├── problems.ipynb # Main assessment notebook with full solutions
+
 ├── roughwork.ipynb # Scratch/testing notebook (not part of final marking, just my working area)
+
 ├── requirements.txt # Allowed packages for the assignment
+
 └── README.md # This file
 
 
