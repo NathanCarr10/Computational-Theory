@@ -3,11 +3,43 @@
 ### Nathan Carr (G00410214)
 
 This repository contains my work for the Secure Hash Standard (FIPS 180-4) assessment.  
-All solutions are implemented and explained in the main notebook:
-
-``problems.ipynb``
+All solutions are implemented and explained in the main notebook: `problems.ipynb`
 
 My aim was to present the notebook in a clear and structured way for someone who is comfortable with Python and basic cryptography, but may not be familiar with the internal workings of SHA-256. Each problem is broken down with explanations, code, and tests so that the full process can be followed without additional context.
+
+---
+
+## Setup and Running the Code
+
+### Requirements
+- Python 3.8+
+- NumPy
+- Standard library modules (`hashlib`, `os`, etc.)
+
+### Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/NathanCarr10/Computational-Theory.git
+   cd Computational-Theory
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install numpy
+   ```
+
+3. Open and run the notebook:
+   ```bash
+   jupyter notebook problems.ipynb
+   ```
+   Or use VS Code with the Jupyter extension and select a Python kernel.
+
+### Reproducibility
+
+All cells are designed to run sequentially from top to bottom. There are no external data dependencies—all test data is generated within the notebook.
+
+Each code cell is self-contained and includes comments explaining its purpose. Markdown cells provide context and theoretical background.
 
 ---
 
